@@ -72,6 +72,21 @@ body {
   margin: 0 0.5rem;
 }
 
+#animemenu {
+  display: none;
+}
+
+/* hero */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url("../img/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 /* Laptop */
 @media (max-width: 1366px) {
   html {
